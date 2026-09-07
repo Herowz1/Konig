@@ -129,6 +129,12 @@ button{
     border: none;
 }
 
+button:hover{
+  transform: scale(1.1);
+  background-color: rgb(96, 2, 2);
+  transition: 0.5s ease-in-out;
+}
+
 .hero-content h1{
     font-size: 3rem;
 }
@@ -183,7 +189,7 @@ button{
     margin-top: 3.5rem;
     flex-direction: column;
     text-align: center;
-    background-color: black;
+    background-color: rgb(56, 54, 54);
     color: white;
     border-radius: 2rem;
     
@@ -260,6 +266,8 @@ button{
     font-size: 1rem;
     padding: 12px 30px;
   }
+
+  
 
   
   .image {
