@@ -1,0 +1,132 @@
+/*Assessement Color sets
+Hero = E5E8EA
+Header = FFFFFF
+Text Color = 3D4144
+Text color 2 = DECD9F
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: slategrey;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 20px 20px ;
+}
+
+.nav{
+    padding-right: 20px;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    color: rgb(13, 13, 13);
+    font-weight: bold;
+}
+
+.nav-link.active{
+    color: rgb(5, 9, 203);
+    font-weight: bold;
+}
+
+.nav-title{
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hero{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  gap: 20px;
+  background-color: rgb(182, 72, 62);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 30px;
+    width: 50%;
+}
+
+.special{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.special1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.num{
+    color: coral;
+}
+
+.hero-content span{
+    color: coral;
+}
+
+button{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.hero-content h1{
+    font-size: 3rem;
+}
+
+.image{
+  background-image: url('megan5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vh;
+  padding: 0px 40px;
+  height: 100vh;
+
+}
